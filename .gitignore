@@ -1,0 +1,15 @@
+# Ignore all
+*
+#**/*
+#**
+# Unignore all with extensions
+#!*.*
+# Unignore all dirs
+# !*/
+
+# macOS/backup files
+.~*
+._*
+.DS_Store
+*.swp
+
