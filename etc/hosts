@@ -9,8 +9,16 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # Sublime Text 3
-127.0.0.1 license.sublimehq.com
-127.0.0.1 www.sublimetext.com 
-#0.0.0.0 license.sublimehq.com
-#0.0.0.0 45.55.255.55
-#0.0.0.0 45.55.41.223
+0.0.0.0 www.sublimetext.com
+0.0.0.0 sublimetext.com
+0.0.0.0 sublimehq.com
+0.0.0.0 license.sublimehq.com
+0.0.0.0 45.55.255.55
+0.0.0.0 45.55.41.223
+
+# Sublime Text 3
+#127.0.0.1 license.sublimehq.com
+#127.0.0.1 www.sublimetext.com
+##0.0.0.0 license.sublimehq.com
+##0.0.0.0 45.55.255.55
+##0.0.0.0 45.55.41.223
