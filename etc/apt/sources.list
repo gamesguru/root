@@ -1,4 +1,4 @@
-# deb cdrom:[Ubuntu 20.04 LTS _Focal Fossa_ - Release amd64 (20200423)]/ focal main restricted
+#deb cdrom:[Ubuntu 20.04.4 LTS _Focal Fossa_ - Release amd64 (20220223)]/ focal main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
@@ -7,7 +7,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ focal main restricted
 
 ## Major bug fix updates produced after the final release of the
 ## distribution.
-deb http://us.archive.ubuntu.com/ubuntu/ focal-updates restricted main
+deb http://us.archive.ubuntu.com/ubuntu/ focal-updates main restricted
 # deb-src http://us.archive.ubuntu.com/ubuntu/ focal-updates main restricted
 
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
@@ -33,7 +33,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ focal-updates multiverse
 ## newer versions of some applications which may provide useful features.
 ## Also, please note that software in backports WILL NOT receive any review
 ## or updates from the Ubuntu security team.
-# deb-src http://us.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
 
 ## Uncomment the following two lines to add software from Canonical's
 ## 'partner' repository.
@@ -42,7 +42,7 @@ deb http://us.archive.ubuntu.com/ubuntu/ focal-updates multiverse
 # deb http://archive.canonical.com/ubuntu focal partner
 # deb-src http://archive.canonical.com/ubuntu focal partner
 
-deb http://security.ubuntu.com/ubuntu focal-security restricted main
+deb http://security.ubuntu.com/ubuntu focal-security main restricted
 # deb-src http://security.ubuntu.com/ubuntu focal-security main restricted
 deb http://security.ubuntu.com/ubuntu focal-security universe
 # deb-src http://security.ubuntu.com/ubuntu focal-security universe
