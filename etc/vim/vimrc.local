@@ -1,0 +1,53 @@
+"syntax on
+let g:molokai_original = 1
+
+
+" vim-gitgutter
+" highlight GitGutterAdd    guifg=#009900 ctermfg=2
+" highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+" highlight GitGutterDelete guifg=#ff2222 ctermfg=1
+
+
+" vue
+let g:vue_pre_processors = 'detect_on_enter'
+
+
+" Kotlin language server
+"autocmd BufReadPost *.kt setlocal filetype=kotlin
+"
+"let g:LanguageClient_serverCommands = {
+"    \ 'kotlin': ["kotlin-language-server"],
+"    \ }
+
+
+" tab config
+set tabstop=4
+set shiftwidth=4
+" set expandtab
+
+
+" map caps lock to escape
+au VimEnter * :silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * :silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+
+
+" extra settings
+set virtualedit+=onemore
+set autoread
+au CursorHold,CursorHoldI * checktime
+au FocusGained,BufEnter * :checktime
+
+
+" ale / eslint stuff
+"let g:airline#extensions#ale#enabled = 1
+"let g:ale_list_window_size = 5
+"let g:ale_javascript_eslint_executable = 'eslint_d'
+"let g:ale_javascript_eslint_use_global = 1
+
+
+" Specific extension / file types
+autocmd BufRead,BufNewFile Jenkinsfile set filetype=groovy
+autocmd BufRead,BufNewFile .bash_exports set filetype=bash
+autocmd BufRead,BufNewFile .env.* set filetype=bash
+
+
