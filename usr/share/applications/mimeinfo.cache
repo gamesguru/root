@@ -586,7 +586,6 @@ x-scheme-handler/info=yelp.desktop;
 x-scheme-handler/magnet=transmission-gtk.desktop;
 x-scheme-handler/mailto=firefox.desktop;thunderbird.desktop;
 x-scheme-handler/man=yelp.desktop;
-x-scheme-handler/matrix=nheko.desktop;
 x-scheme-handler/mid=thunderbird.desktop;
 x-scheme-handler/mms=org.gnome.Totem.desktop;
 x-scheme-handler/mmsh=org.gnome.Totem.desktop;
