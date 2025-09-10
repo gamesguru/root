@@ -1,0 +1,27 @@
+[Default Applications]
+application/vnd.wolfram.nb=wolfram-mathematica11.desktop
+x-scheme-handler/wolfram+cloudobject=wolfram-mathematica11.desktop
+application/vnd.wolfram.mathematica.package=wolfram-mathematica11.desktop
+application/vnd.wolfram.player=wolfram-mathematica11.desktop
+application/x-mathematica=wolfram-mathematica11.desktop
+application/mathematica=wolfram-mathematica11.desktop
+application/vnd.wolfram.cdf=wolfram-mathematica11.desktop
+x-scheme-handler/wolframmathematica+cloudobject=wolfram-mathematica11.desktop
+application/vnd.wolfram.wl=wolfram-mathematica11.desktop
+application/pdf=google-chrome.desktop;
+application/rdf+xml=google-chrome.desktop;
+application/rss+xml=google-chrome.desktop;
+application/xhtml+xml=google-chrome.desktop;
+application/xhtml_xml=google-chrome.desktop;
+application/xml=google-chrome.desktop;
+image/gif=google-chrome.desktop;
+image/jpeg=google-chrome.desktop;
+image/png=google-chrome.desktop;
+image/webp=google-chrome.desktop;
+text/html=google-chrome.desktop;
+text/xml=google-chrome.desktop;
+x-scheme-handler/http=google-chrome.desktop;
+x-scheme-handler/https=google-chrome.desktop;
+application/rdf+xml=google-chrome.desktop;
+application/rss+xml=google-chrome.desktop;
+application/xhtml+xml=google-chrome.desktop;
